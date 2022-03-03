@@ -11,14 +11,21 @@ npm run dev
 # or
 yarn dev
 ```
+## Runnign the API
+go the the accompanying [API Project](https://github.com/Zamrik1/search-app-api) and run it to be able to fetch the data. 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
+## Production mode
 
-To learn more about Next.js, take a look at the following resources:
+To run the application in production mode first build the application using NPM and then run the start command
 
--
--
+```bash
+npm run build && npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Future TODO's:
+
+- Replace Classnames and in JS CSS with something nicer like styled-components or using scss
+- Add some tests
+- create design break points for different layout for different screens
