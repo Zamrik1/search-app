@@ -1,0 +1,6 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: var(--header-margin) max((100vw - 1440px) / 2, var(--header-margin));
+  flex-direction: column;
+}

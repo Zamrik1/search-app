@@ -1,0 +1,35 @@
+.card {
+  margin: var(--basic-spacing);
+  padding: 0;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transition: all 250ms ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 10px 30px 60px rgba(0, 0, 0, 0.15);
+}
+
+.cardBody {
+  display: block;
+}
+
+.cardImage {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.cardSubContent {
+  padding: 0 var(--basic-spacing);
+}

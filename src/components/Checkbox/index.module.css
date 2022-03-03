@@ -1,0 +1,18 @@
+.checkbox {
+  display: inline-flex;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  text-transform: capitalize;
+}
+
+.checkboxInput {
+  height: 20px;
+  width: 20px;
+}
+
+.checkInput:hover,
+.label:hover {
+  cursor: pointer;
+}
